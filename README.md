@@ -1,4 +1,4 @@
-# XpertBackend
+# CatsBackend
 
 Servicio backend en Node.js + TypeScript que actúa como fachada de [TheCatAPI](https://thecatapi.com/) y añade endpoints propios para gestionar usuarios. Incluye validaciones de entrada, manejo centralizado de errores y persistencia en MongoDB para las operaciones de autenticación.
 
@@ -113,3 +113,4 @@ npm run test:coverage
 ```
 
 Ambos comandos pueden ejecutarse sin depender de servicios externos gracias a los dobles de prueba incluidos (mocks/nock).
+
